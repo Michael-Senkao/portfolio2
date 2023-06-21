@@ -86,7 +86,7 @@ body{
     padding-bottom: 15px;
 }
 
-@media (max-width: 768px) and (min-width: 600px){
+@media (max-width: 768px){
     .profile-img{
         order: -1;
     }
@@ -95,16 +95,7 @@ body{
     }
 }
 
-@media (max-width: 599px) and (min-width: 576){
-    .profile-img{
-        order: -1;
-    }
-    .profile-img img{
-        height: 400px;
-    }
-}
-
-@media (max-width: 575){
+@media (max-width: 576px){
     .profile-img{
         order: -1;
     }
