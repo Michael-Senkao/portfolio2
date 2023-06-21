@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(300deg, #FF8888, #eeeeee)
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: linear-gradient(300deg, #016384, #ff4c67d7, #9f2211f8);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+
+.nav-links > ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1.25rem;
+    font-size: 1.5rem;
+}
+
+.nav-links li:hover{
+    background-color: #FF0021;
+}
+
+.nav-links li img{
+    height: 25px;
+}
+
+@media (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .page-nav ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .page-nav li a{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .nav-links li img{
+        height: 20px;
+    }
+}
+
+/* INTRODUCTION */
+.profile-img img{
+   height: 500px;
+    border-radius: 25% 20px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro p{
+    font-size: 1.5rem;
+    color: black;
+}
+.intro h1{
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 768px){
+    .profile-img{
+        order: -1;
+    }
+}
