@@ -91,6 +91,6 @@ body{
         order: -1;
     }
     .prfile-img img{
-        width: 250px;
+        height: 400px;
     }
 }
