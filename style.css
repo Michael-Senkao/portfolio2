@@ -96,6 +96,9 @@ body{
 }
 
 @media (max-width: 576px){
+    .profile-img{
+        order: -1;
+    }
     .profile-img img{
         height: 375px;
     }
