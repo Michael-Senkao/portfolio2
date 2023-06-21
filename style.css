@@ -95,11 +95,20 @@ body{
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 599px) and (min-width: 576){
     .profile-img{
         order: -1;
     }
     .profile-img img{
         height: 400px;
+    }
+}
+
+@media (max-width: 575){
+    .profile-img{
+        order: -1;
+    }
+    .profile-img img{
+        height: 375px;
     }
 }
