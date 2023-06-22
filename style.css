@@ -48,19 +48,16 @@ body{
 
 @media (max-width: 600px){
     .navbar{
-        flex-direction: column;
-        align-items: flex-start;
+       display: block;
     }
     .page-nav ul{
         flex-direction: column;
-        width: 100%;
     }
 
     .page-nav li a{
         font-size: 1rem;
         padding: 1rem;
     }
-
     .nav-links li img{
         height: 20px;
     }
@@ -93,14 +90,19 @@ body{
     }
     .profile-img img{
         height: 600px;
+        width: ;
+        border-radius: 25% 25%;
     }
 }
 
 @media (max-width: 576px){
-    .profile-img{
-        order: -1;
-    }
     .profile-img img{
         height: 375px;
+    }
+    .intro h1{
+        font-size: 2rem;
+    }
+    .intro p{
+        font-size: 1rem;
     }
 }
